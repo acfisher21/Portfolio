@@ -1,0 +1,135 @@
+WORK PAGE
+/***** Base STYLES ******/
+
+body {
+  font-family: 'PT Serif', serif;
+  color: black;
+}
+
+#about, #services {
+  height: 500px;
+}
+
+#contact {
+  height: 400px;
+}
+
+/***** GRID ******/
+
+.full-width {
+  width: 1200 px;
+  margin: 0 auto;
+}
+
+.half-width{
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/****** HEADER *****/
+
+header {
+  background: none;
+  height: 300px;
+}
+
+/****** WORK *****/
+
+
+#work {
+  background-color:#ccf2ff;
+  text-align: center;
+  height: 500px;
+}
+
+#work .full-width {
+  padding: 100px 30px 0px 30px;
+}
+
+#work img {
+  padding-bottom: 30px;
+}
+
+#work h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#work p {
+  font-family: 'PT Serif', serif;
+  color: #7f7f7f;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0 50px;
+}
+
+/****** CONTACT ******/
+#contact {
+  background-color: #ffffff;
+}
+
+#contact .full-width {
+  padding: 110px 0;
+  text-align: center;
+}
+
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+  font-family: 'PT Serif', serif;
+  text-align: center;
+}
+
+#contact #envelope {
+  padding: 0 10px 0 115px;
+  text-align: center;
+}
+
+#contact h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+}
+
+#contact #email-header{
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+  margin: -30px 0 5px 0;
+  text-align: center;
+}
+
+#contact #socialmedia-header {
+  font-weight: bold;
+  font-size: 29px;
+  line-height: 44px;
+  margin: 40px 0 0 0;
+}
+
+#contact a {
+  text-decoration: none;
+  color:  #7f7f7f;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+#contact ul {
+  list-style: none;
+}
+
+#contact ul li {
+  display: inline-block;
+}
+
+#contact ul img {
+  font-size: 32px;
+  padding-right: 48px;
+}
